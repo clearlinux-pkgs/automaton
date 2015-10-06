@@ -4,7 +4,7 @@
 #
 Name     : automaton
 Version  : 0.7.0
-Release  : 2
+Release  : 3
 URL      : https://pypi.python.org/packages/source/a/automaton/automaton-0.7.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/a/automaton/automaton-0.7.0.tar.gz
 Summary  : Friendly state machines for python.
