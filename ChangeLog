@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+1.2.0
+-----
+
+* Add a state-space machine building example
+* Ensure state space can also pass on_enter/exit callbacks
+* Updated from global requirements
+* Updated from global requirements
+* Ensure machine special method(s) include in generated docs
+* Put py34 first in the envlist order of tox ,remove py33
+
 1.1.0
 -----
 
