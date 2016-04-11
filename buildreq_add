@@ -23,3 +23,5 @@ unittest2-python
 python-mimeparse-python
 extras-python
 extras
+docutils
+Jinja2
