@@ -4,7 +4,7 @@
 #
 Name     : automaton
 Version  : 1.2.0
-Release  : 8
+Release  : 9
 URL      : https://pypi.python.org/packages/source/a/automaton/automaton-1.2.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/a/automaton/automaton-1.2.0.tar.gz
 Summary  : Friendly state machines for python.
@@ -12,11 +12,13 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: automaton-python
 BuildRequires : Babel-python
+BuildRequires : Jinja2
 BuildRequires : Sphinx-python
 BuildRequires : coverage-python
 BuildRequires : debtcollector-python
 BuildRequires : discover-python
 BuildRequires : doc8-python
+BuildRequires : docutils-python
 BuildRequires : extras
 BuildRequires : extras-python
 BuildRequires : hacking
@@ -60,6 +62,7 @@ python components for the automaton package.
 
 
 %prep
+cd ..
 %setup -q -n automaton-1.2.0
 
 %build
