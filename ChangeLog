@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+1.4.0
+-----
+
+* Remove discover from test-requirements
+* Add Python 3.5 classifier and venv
+
 1.3.0
 -----
 
