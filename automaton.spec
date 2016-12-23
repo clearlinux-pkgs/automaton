@@ -4,7 +4,7 @@
 #
 Name     : automaton
 Version  : 1.5.0
-Release  : 18
+Release  : 19
 URL      : https://pypi.debian.net/automaton/automaton-1.5.0.tar.gz
 Source0  : https://pypi.debian.net/automaton/automaton-1.5.0.tar.gz
 Summary  : Friendly state machines for python.
