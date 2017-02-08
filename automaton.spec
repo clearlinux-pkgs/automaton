@@ -4,7 +4,7 @@
 #
 Name     : automaton
 Version  : 1.5.0
-Release  : 22
+Release  : 23
 URL      : https://pypi.debian.net/automaton/automaton-1.5.0.tar.gz
 Source0  : https://pypi.debian.net/automaton/automaton-1.5.0.tar.gz
 Summary  : Friendly state machines for python.
@@ -22,7 +22,7 @@ BuildRequires : docutils
 BuildRequires : extras
 BuildRequires : extras-python
 BuildRequires : hacking
-BuildRequires : imagesize-python
+BuildRequires : markupsafe-python
 BuildRequires : oslosphinx-python
 BuildRequires : oslotest-python
 BuildRequires : pbr
@@ -67,12 +67,12 @@ python components for the automaton package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1484530558
+export SOURCE_DATE_EPOCH=1486522625
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1484530558
+export SOURCE_DATE_EPOCH=1486522625
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
