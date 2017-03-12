@@ -1,27 +1,2 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-prettytable
-debtcollector-python
-six-python
-six
-wrapt-python
-Babel-python
-pytz-python
-testtools-python
-testtools
-testscenarios
-testrepository-python
-oslotest-python
-oslosphinx-python
-Sphinx-python
-discover-python
-coverage-python
-doc8-python
-hacking
-traceback2-python
-unittest2-python
-python-mimeparse-python
-extras-python
-extras
-docutils
-Jinja2

@@ -4,7 +4,7 @@
 #
 Name     : automaton
 Version  : 1.5.0
-Release  : 24
+Release  : 25
 URL      : https://pypi.debian.net/automaton/automaton-1.5.0.tar.gz
 Source0  : https://pypi.debian.net/automaton/automaton-1.5.0.tar.gz
 Summary  : Friendly state machines for python.
@@ -14,39 +14,11 @@ Requires: automaton-python
 Requires: debtcollector
 Requires: pbr
 Requires: six
-BuildRequires : Babel-python
-BuildRequires : Jinja2
-BuildRequires : Sphinx-python
-BuildRequires : configparser-python
-BuildRequires : coverage-python
-BuildRequires : debtcollector-python
-BuildRequires : discover-python
-BuildRequires : doc8-python
-BuildRequires : docutils
-BuildRequires : enum34-python
-BuildRequires : extras
-BuildRequires : extras-python
-BuildRequires : hacking
-BuildRequires : imagesize-python
-BuildRequires : oslosphinx-python
-BuildRequires : oslotest-python
 BuildRequires : pbr
 BuildRequires : pip
-BuildRequires : prettytable
 BuildRequires : python-dev
-BuildRequires : python-mimeparse-python
 BuildRequires : python3-dev
-BuildRequires : pytz-python
 BuildRequires : setuptools
-BuildRequires : six
-BuildRequires : six-python
-BuildRequires : testrepository-python
-BuildRequires : testscenarios
-BuildRequires : testtools
-BuildRequires : testtools-python
-BuildRequires : traceback2-python
-BuildRequires : unittest2-python
-BuildRequires : wrapt-python
 
 %description
 =========
@@ -69,12 +41,12 @@ python components for the automaton package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1489026331
+export SOURCE_DATE_EPOCH=1489280318
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1489026331
+export SOURCE_DATE_EPOCH=1489280318
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
