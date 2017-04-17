@@ -1,6 +1,29 @@
 CHANGES
 =======
 
+1.8.0
+-----
+
+* Updated from global requirements
+* Updated from global requirements
+* Update reno for stable/ocata
+
+1.7.0
+-----
+
+* Don't include openstack/common in flake8 exclude list
+* Removes unnecessary utf-8 encoding
+* Add Constraints support
+* Replace six.iteritems() with .items()
+
+1.6.0
+-----
+
+* Updated from global requirements
+* Fix release notes gate failure
+* Updated from global requirements
+* Add reno for release notes management
+
 1.5.0
 -----
 
