@@ -1,6 +1,62 @@
 CHANGES
 =======
 
+1.15.0
+------
+
+* Switch to stestr
+* fix tox python3 overrides
+* Trivial: Update pypi url to new url
+* fix list of default virtualenvs
+* set default python to python3
+* add lower-constraints job
+* Updated from global requirements
+* Update reno for stable/queens
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+
+1.14.0
+------
+
+
+1.13.1
+------
+
+* Avoid tox\_install.sh for constraints support
+* Remove setting of version/release from releasenotes
+* Updated from global requirements
+
+1.13.0
+------
+
+* Updated from global requirements
+* Remove kwarg default\_start\_state in the machine constructor
+* Updated from global requirements
+* Update reno for stable/pike
+* Updated from global requirements
+
+1.12.0
+------
+
+* Update URLs in documents according to document migration
+* update link to docs in readme
+
+1.11.0
+------
+
+* switch from oslosphinx to openstackdocstheme
+* rearrange existing documentation according to the new standard layout
+* Updated from global requirements
+
+1.10.0
+------
+
+* Remove pbr warnerrors in favor of sphinx check
+* Remove support for py34
+* Updated from global requirements
+* Updated from global requirements
+
 1.9.0
 -----
 
@@ -52,7 +108,7 @@ CHANGES
 -----
 
 * Add a state-space machine building example
-* Ensure state space can also pass on_enter/exit callbacks
+* Ensure state space can also pass on\_enter/exit callbacks
 * Updated from global requirements
 * Updated from global requirements
 * Ensure machine special method(s) include in generated docs
@@ -94,7 +150,7 @@ CHANGES
 0.6.0
 -----
 
-* Activate pep8 check that _ is imported
+* Activate pep8 check that \_ is imported
 * Updated from global requirements
 
 0.5.0
@@ -103,15 +159,15 @@ CHANGES
 * Ensure doctesting and doc8 testing done in py27 env
 * Updated from global requirements
 * Remove setup.cfg 'requires-python' incorrect entry
-* Document `process_event` return and expose return namedtuple type
-* Allow providing and using a 'nested_start_state_fetcher'
+* Document \`process\_event\` return and expose return namedtuple type
+* Allow providing and using a 'nested\_start\_state\_fetcher'
 * Allow providing a state-name translation dict
 
 0.4.0
 -----
 
 * Add a bigger CD-player state-machine doctest(ed) example
-* Add `is_actionable_event` checking function
+* Add \`is\_actionable\_event\` checking function
 * Disallow adding transitions from terminal states
 * Add and use a callback name fetching utility function
 * Add runners to features.rst & add a runner base & update docstrings
@@ -129,7 +185,7 @@ CHANGES
 * Add optional machine conversion into a pydot graph
 * Updated from global requirements
 * Updated from global requirements
-* When a state has no transitions show its own `on_exit` and `on_enter`
+* When a state has no transitions show its own \`on\_exit\` and \`on\_enter\`
 * Add a more complex doctest(ed) example
 * Add simple machine doctest(ed) example into docs
 
@@ -140,25 +196,25 @@ CHANGES
 * Use debtcollector removals function instead of warnings.warn
 * Revamp repo to match openstack repos
 * Allow the hierarchical machine to provide back the nested machines
-* Retain & deprecate default_start_state via constructor
-* Amend the unittest due to more on_exit being triggered
-* Have the start state 'on_exit' be called when exit occurs
+* Retain & deprecate default\_start\_state via constructor
+* Amend the unittest due to more on\_exit being triggered
+* Have the start state 'on\_exit' be called when exit occurs
 * Use a property setter instead of a method
-* Require using set_default_start_state to set the default
+* Require using set\_default\_start\_state to set the default
 * Add more checks on setting a alternative start state default
-* Rename start_state to default_start_state
-* Use type(self) instead of self.__class__
+* Rename start\_state to default\_start\_state
+* Use type(self) instead of self.\_\_class\_\_
 * Correctly copy derived classes
-* Allow initialize to take an alternative start_state
+* Allow initialize to take an alternative start\_state
 * Update message when processing event and not initialized
 * Add pre and post event processing methods
 * Share the same not found template between machines
-* Avoid having a _generate_runner method when inheritance is ok
+* Avoid having a \_generate\_runner method when inheritance is ok
 * Allow frozen to be set/unset
 * Add testrepository to testing requirements
 * Fixup the classifiers
 * Fix the tox to install the right requirements
-* Just use _generate_runner to generate the different runner types
+* Just use \_generate\_runner to generate the different runner types
 * Use quoting in the machine code documentation
 * Adjust pformat() + add examples
 * Remove version caps
@@ -166,7 +222,7 @@ CHANGES
 * Move process event to be a static method
 * Add a HierarchicalFiniteMachine + Runner
 * Use a helper classmethod to create machines
-* Rename _Runner -> _FiniteRunner
+* Rename \_Runner -> \_FiniteRunner
 * Move to top level machines module, seems cleaner this way
 * Fix the pformat() example
 * Move the fsm -> machines/finite.py and split off the running methods
