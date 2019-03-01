@@ -1,6 +1,17 @@
 CHANGES
 =======
 
+1.16.0
+------
+
+* Use template for lower-constraints
+* Change openstack-dev to openstack-discuss
+* Change openstack-dev to openstack-discuss
+* add lib-forward-testing-python3 test job
+* add python 3.6 unit test job
+* import zuul job settings from project-config
+* Update reno for stable/rocky
+
 1.15.0
 ------
 
