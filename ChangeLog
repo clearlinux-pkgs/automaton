@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+2.0.0
+-----
+
+* Add python3 classifiers
+* Ignore releasenote artifacts files
+* [ussuri][goal] Drop python 2.7 support and testing
+* trivial: Remove noise
+* Move doc requirements into dedicated file
+* Switch to Ussuri jobs
+* Blacklist sphinx 2.1.0 (autodoc bug)
+* Update the constraints url
+* Update master for stable/train
+
 1.17.0
 ------
 
