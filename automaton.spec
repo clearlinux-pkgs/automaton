@@ -4,7 +4,7 @@
 #
 Name     : automaton
 Version  : 2.0.0
-Release  : 40
+Release  : 41
 URL      : https://files.pythonhosted.org/packages/80/b1/b20af4e31b01826eb56f289b3e9ff3c89392ad2417ae015ed87eef84a010/automaton-2.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/80/b1/b20af4e31b01826eb56f289b3e9ff3c89392ad2417ae015ed87eef84a010/automaton-2.0.0.tar.gz
 Summary  : Friendly state machines for python.
@@ -23,9 +23,26 @@ BuildRequires : six
 =========
 Automaton
 =========
+
 .. image:: https://img.shields.io/pypi/v/automaton.svg
-:target: https://pypi.org/project/automaton/
-:alt: Latest Version
+    :target: https://pypi.org/project/automaton/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/dm/automaton.svg
+    :target: https://pypi.org/project/automaton/
+    :alt: Downloads
+
+Friendly state machines for python. The goal of this library is to provide
+well documented state machine classes and associated utilities. The state
+machine pattern (or the implemented variation there-of) is a commonly
+used pattern and has a multitude of various usages. Some of the usages
+for this library include providing state & transition validation and
+running/scheduling/analyzing the execution of tasks.
+
+* Free software: Apache license
+* Documentation: https://docs.openstack.org/automaton/latest/
+* Source: https://opendev.org/openstack/automaton
+* Bugs: https://bugs.launchpad.net/automaton
 
 %package license
 Summary: license components for the automaton package.
@@ -48,6 +65,7 @@ python components for the automaton package.
 Summary: python3 components for the automaton package.
 Group: Default
 Requires: python3-core
+Provides: pypi(automaton)
 
 %description python3
 python3 components for the automaton package.
@@ -62,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581088639
+export SOURCE_DATE_EPOCH=1582848082
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
