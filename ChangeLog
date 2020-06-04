@@ -1,6 +1,17 @@
 CHANGES
 =======
 
+2.1.0
+-----
+
+* Stop to use the \_\_future\_\_ module
+* Small cleanup
+* Switch to newer openstackdocstheme and reno versions
+* Bump default tox env from py37 to py38
+* Add py38 package metadata
+* Add Python3 victoria unit tests
+* Update master for stable/ussuri
+
 2.0.1
 -----
 
