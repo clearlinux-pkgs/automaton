@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+2.2.0
+-----
+
+* Update lower-constraints list
+* drop mock from lower-constraints
+
 2.1.0
 -----
 
