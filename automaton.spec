@@ -4,7 +4,7 @@
 #
 Name     : automaton
 Version  : 2.2.0
-Release  : 45
+Release  : 46
 URL      : https://files.pythonhosted.org/packages/42/8b/e6edfe8a75cd21215fe0529f700c75c6da325a3e948062c276cdcd036bcf/automaton-2.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/42/8b/e6edfe8a75cd21215fe0529f700c75c6da325a3e948062c276cdcd036bcf/automaton-2.2.0.tar.gz
 Summary  : Friendly state machines for python.
